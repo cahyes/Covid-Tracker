@@ -1,0 +1,38 @@
+body {
+  background-image: url(/asset/img/corona.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.71);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 1px solid rgba(0, 0, 0, 0.32);
+}
+h1,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+}
+h5 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    padding: 20px 20px;
+  }
+
+  h5 {
+    font-size: 15pt;
+  }
+  .card {
+    margin: 10px 0px;
+  }
+}
